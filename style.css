@@ -1,0 +1,88 @@
+.con1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 5px auto;
+}
+
+.con1>div>img {
+    position: relative;
+    width: 100%;
+    margin: 3px auto;
+}
+
+.con2 {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+
+
+}
+
+.con2>div>img {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.big-con {
+    width: 99%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.fa-times {
+    padding: 0px 3px;
+    border: 3px solid black;
+
+}
+
+.fa {
+
+    cursor: pointer;
+    text-align: left;
+    font-size: 2.4rem;
+}
+
+.big-con>img {
+    position: relative;
+    width: 90%;
+    margin: auto;
+
+}
+
+.video-div {
+    width: 99%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+
+}
+
+.video-div>video {
+    position: relative;
+    width: 90%;
+    margin: auto;
+
+}
