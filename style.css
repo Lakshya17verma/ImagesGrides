@@ -7,7 +7,7 @@
 
 /*header section*/
 header {
-    background-color: #e25144;
+    background-color: #e26729;
 }
 
 .navbar>img {
@@ -186,7 +186,7 @@ a {
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: #D64132;
+        background-color: #e26729;
         width: 100%;
         text-align: center;
         transition: 0.3s;
